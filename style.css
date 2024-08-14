@@ -1,0 +1,34 @@
+body {
+
+    background-color: rgb(32, 100, 78);
+    color: rgb(211, 203, 203);
+    font-family: "Gupter", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button{
+     background-color: #232457;
+    color: rgb(194, 179, 179);
+    font-family: "Gupter", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
